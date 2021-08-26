@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @receipe.name %>
+</p>
+
+<p>
+  <strong>Ingredient:</strong>
+  <%= @receipe.ingredient %>
+</p>
+
+<p>
+  <strong>Direction:</strong>
+  <%= @receipe.direction %>
+</p>
+
+<p>
+  <strong>Preparation time:</strong>
+  <%= @receipe.preparation_time %>
+</p>
+
+<p>
+  <strong>Cooking time:</strong>
+  <%= @receipe.cooking_time %>
+</p>
+
+<p>
+  <strong>Servings:</strong>
+  <%= @receipe.servings %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @receipe.category %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @receipe.picture %>
+</p>
+
+<p>
+  <strong>Created by:</strong>
+  <%= @receipe.created_by %>
+</p>
+
+<%= link_to 'Edit', edit_receipe_path(@receipe) %> |
+<%= link_to 'Back', receipes_path %>
